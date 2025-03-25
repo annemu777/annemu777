@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朋友圈文案生成器</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>朋友圈文案生成器</h1>
+        
+        <div class="scene-selector">
+            <select id="sceneSelect">
+                <option value="">选择场景</option>
+                <option value="travel">旅行</option>
+                <option value="food">美食</option>
+                <option value="sports">运动</option>
+                <option value="work">工作</option>
+                <option value="life">生活</option>
+            </select>
+            <button id="refreshBtn">换一批</button>
+        </div>
+
+        <div id="captionContainer" class="caption-container">
+            <!-- 文案将在这里动态生成 -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html> 
